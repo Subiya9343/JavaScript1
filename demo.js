@@ -72,7 +72,6 @@ buildTable(details.Employees);
 
 function buildTable(data) {
     var table = document.getElementById("data-output");
-    document.getElementById("data-output").style.backgroundColor.nth
 
     data.sort((a, b) => {
         return a.jobTitleName.localeCompare(b.jobTitleName);
